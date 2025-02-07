@@ -5,12 +5,11 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
-import java.util.Map;
+import java.util.List;
 
 @RestController
 @RequestMapping("/api/gemini")
 public class GeminiController {
-
     private final GeminiService geminiService;
 
     public GeminiController(GeminiService geminiService) {
@@ -18,7 +17,8 @@ public class GeminiController {
     }
 
     @PostMapping("/generate")
-    public ResponseEntity<String> generateContent(@RequestBody Map<String, Object> requestBody) throws IOException {
-        return ResponseEntity.ok(geminiService.sendPrompt(requestBody));
+    public ResponseEntity<List<String>> generateContent() throws IOException {
+        List<String> responses = geminiService.processTopics();
+        return ResponseEntity.ok(responses);
     }
 }
