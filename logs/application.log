@@ -1,23 +1,24 @@
-2025-02-07 10:40:55 INFO  [main] c.b.selector.SelectorApplication - Starting SelectorApplication using Java 21.0.5 with PID 11960 (C:\selector\target\classes started by Lenovo in C:\selector)
-2025-02-07 10:40:55 DEBUG [main] c.b.selector.SelectorApplication - Running with Spring Boot v3.4.2, Spring v6.2.2
-2025-02-07 10:40:55 INFO  [main] c.b.selector.SelectorApplication - No active profile set, falling back to 1 default profile: "default"
-2025-02-07 10:40:57 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-07 10:40:57 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 0 JPA repository interfaces.
-2025-02-07 10:40:59 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
-2025-02-07 10:40:59 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2025-02-07 10:40:59 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-02-07 10:40:59 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-07 10:41:00 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-02-07 10:41:00 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4805 ms
-2025-02-07 10:41:00 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-02-07 10:41:00 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
-2025-02-07 10:41:00 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-02-07 10:41:01 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-07 10:41:01 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2025-02-07 10:41:02 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2475fba3
-2025-02-07 10:41:02 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2025-02-07 10:41:02 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-02-07 10:41:02 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+2025-02-12 11:17:47 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-02-12 11:17:48 INFO  [main] c.b.selector.SelectorApplication - Starting SelectorApplication using Java 21.0.4 with PID 4408 (C:\selector\target\classes started by Lenovo in C:\selector)
+2025-02-12 11:17:48 DEBUG [main] c.b.selector.SelectorApplication - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-02-12 11:17:48 INFO  [main] c.b.selector.SelectorApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-12 11:17:49 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-12 11:17:49 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 104 ms. Found 2 JPA repository interfaces.
+2025-02-12 11:17:50 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-02-12 11:17:50 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-12 11:17:50 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-12 11:17:50 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-12 11:17:51 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-12 11:17:51 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2900 ms
+2025-02-12 11:17:51 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-12 11:17:51 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-12 11:17:51 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-02-12 11:17:52 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-12 11:17:52 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-02-12 11:17:54 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4abbe41c
+2025-02-12 11:17:54 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-02-12 11:17:54 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-12 11:17:54 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 15.8
@@ -25,27 +26,41 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-02-07 10:41:03 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-02-07 10:41:03 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-07 10:41:03 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-07 10:41:04 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2025-02-07 10:41:04 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
-2025-02-07 10:41:04 INFO  [main] c.b.selector.SelectorApplication - Started SelectorApplication in 11.535 seconds (process running for 18.626)
-2025-02-07 11:25:32 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m29s776ms55µs600ns).
-2025-02-07 11:33:18 INFO  [main] c.b.s.SelectorApplicationTests - Starting SelectorApplicationTests using Java 21.0.4 with PID 9860 (started by Lenovo in C:\selector)
-2025-02-07 11:33:18 DEBUG [main] c.b.s.SelectorApplicationTests - Running with Spring Boot v3.4.2, Spring v6.2.2
-2025-02-07 11:33:18 INFO  [main] c.b.s.SelectorApplicationTests - No active profile set, falling back to 1 default profile: "default"
-2025-02-07 11:33:20 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-07 11:33:20 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41 ms. Found 0 JPA repository interfaces.
-2025-02-07 11:33:21 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-02-07 11:33:22 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
-2025-02-07 11:33:22 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-02-07 11:33:23 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-07 11:33:23 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2025-02-07 11:33:24 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5b665a30
-2025-02-07 11:33:24 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2025-02-07 11:33:24 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-02-07 11:33:24 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+2025-02-12 11:17:57 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-12 11:17:57 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 11:17:57 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-12 11:17:58 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-12 11:17:58 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-02-12 11:17:58 INFO  [main] c.b.selector.SelectorApplication - Started SelectorApplication in 12.04 seconds (process running for 13.096)
+2025-02-12 11:18:15 INFO  [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-12 11:18:15 INFO  [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-12 11:18:15 INFO  [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-02-12 11:38:46 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-12 11:38:46 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-02-12 11:38:46 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 11:38:46 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-02-12 11:38:46 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-02-12 11:46:04 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-02-12 11:46:04 INFO  [main] c.b.selector.SelectorApplication - Starting SelectorApplication using Java 21.0.4 with PID 19116 (C:\selector\target\classes started by Lenovo in C:\selector)
+2025-02-12 11:46:04 DEBUG [main] c.b.selector.SelectorApplication - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-02-12 11:46:04 INFO  [main] c.b.selector.SelectorApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-12 11:46:05 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-12 11:46:06 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 118 ms. Found 2 JPA repository interfaces.
+2025-02-12 11:46:07 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-02-12 11:46:07 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-12 11:46:07 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-12 11:46:07 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-12 11:46:07 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-12 11:46:07 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2875 ms
+2025-02-12 11:46:07 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-12 11:46:07 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-12 11:46:08 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-02-12 11:46:08 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-12 11:46:08 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-02-12 11:46:09 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1bb96449
+2025-02-12 11:46:09 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-02-12 11:46:09 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-12 11:46:09 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 15.8
@@ -53,33 +68,41 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-02-07 11:33:25 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-02-07 11:33:25 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-07 11:33:26 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-07 11:33:27 INFO  [main] c.b.s.SelectorApplicationTests - Started SelectorApplicationTests in 11.255 seconds (process running for 13.969)
-2025-02-07 11:33:29 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-07 11:33:29 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2025-02-07 11:33:29 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2025-02-07 11:33:53 INFO  [main] c.b.selector.SelectorApplication - Starting SelectorApplication using Java 21.0.4 with PID 4924 (C:\selector\target\classes started by Lenovo in C:\selector)
-2025-02-07 11:33:53 DEBUG [main] c.b.selector.SelectorApplication - Running with Spring Boot v3.4.2, Spring v6.2.2
-2025-02-07 11:33:53 INFO  [main] c.b.selector.SelectorApplication - No active profile set, falling back to 1 default profile: "default"
-2025-02-07 11:33:54 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-07 11:33:54 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 0 JPA repository interfaces.
-2025-02-07 11:33:55 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
-2025-02-07 11:33:55 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2025-02-07 11:33:55 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-02-07 11:33:55 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-07 11:33:55 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-02-07 11:33:55 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1945 ms
-2025-02-07 11:33:55 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-02-07 11:33:55 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
-2025-02-07 11:33:55 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-02-07 11:33:56 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-07 11:33:56 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2025-02-07 11:33:56 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@600bbf9e
-2025-02-07 11:33:56 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2025-02-07 11:33:56 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-02-07 11:33:56 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+2025-02-12 11:46:11 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-12 11:46:11 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 11:46:11 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-12 11:46:12 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-12 11:46:12 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-02-12 11:46:13 INFO  [main] c.b.selector.SelectorApplication - Started SelectorApplication in 10.112 seconds (process running for 11.118)
+2025-02-12 11:46:55 INFO  [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-12 11:46:55 INFO  [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-12 11:46:55 INFO  [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-02-12 11:54:58 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-12 11:54:58 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-02-12 11:54:58 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 11:54:58 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-02-12 11:54:58 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-02-12 11:55:23 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-02-12 11:55:23 INFO  [main] c.b.selector.SelectorApplication - Starting SelectorApplication using Java 21.0.4 with PID 19648 (C:\selector\target\classes started by Lenovo in C:\selector)
+2025-02-12 11:55:23 DEBUG [main] c.b.selector.SelectorApplication - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-02-12 11:55:23 INFO  [main] c.b.selector.SelectorApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-12 11:55:24 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-12 11:55:24 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 98 ms. Found 2 JPA repository interfaces.
+2025-02-12 11:55:25 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-02-12 11:55:26 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-12 11:55:26 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-12 11:55:26 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-12 11:55:26 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-12 11:55:26 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2403 ms
+2025-02-12 11:55:26 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-12 11:55:26 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-12 11:55:26 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-02-12 11:55:27 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-12 11:55:27 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-02-12 11:55:27 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@34f23816
+2025-02-12 11:55:27 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-02-12 11:55:27 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-12 11:55:27 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 15.8
@@ -87,56 +110,38 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-02-07 11:33:57 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-02-07 11:33:57 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-07 11:33:57 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-07 11:33:57 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2025-02-07 11:33:57 WARN  [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
-2025-02-07 11:33:57 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-07 11:33:57 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2025-02-07 11:33:57 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2025-02-07 11:33:57 INFO  [main] o.s.b.a.l.ConditionEvaluationReportLogger - 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2025-02-07 11:33:58 ERROR [main] o.s.b.d.LoggingFailureAnalysisReporter - 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Web server failed to start. Port 8080 was already in use.
-
-Action:
-
-Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
-
-2025-02-07 11:34:09 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-07 11:34:09 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
-2025-02-07 11:34:09 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-07 11:34:09 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2025-02-07 11:34:09 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2025-02-07 11:34:30 INFO  [main] c.b.selector.SelectorApplication - Starting SelectorApplication using Java 21.0.4 with PID 7572 (C:\selector\target\classes started by Lenovo in C:\selector)
-2025-02-07 11:34:30 DEBUG [main] c.b.selector.SelectorApplication - Running with Spring Boot v3.4.2, Spring v6.2.2
-2025-02-07 11:34:30 INFO  [main] c.b.selector.SelectorApplication - No active profile set, falling back to 1 default profile: "default"
-2025-02-07 11:34:31 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-07 11:34:31 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 0 JPA repository interfaces.
-2025-02-07 11:34:32 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
-2025-02-07 11:34:32 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2025-02-07 11:34:32 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-02-07 11:34:32 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-07 11:34:32 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-02-07 11:34:32 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1958 ms
-2025-02-07 11:34:32 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-02-07 11:34:33 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
-2025-02-07 11:34:33 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-02-07 11:34:33 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-07 11:34:33 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2025-02-07 11:34:33 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2e2b9f53
-2025-02-07 11:34:33 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2025-02-07 11:34:33 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-02-07 11:34:34 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+2025-02-12 11:55:29 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-12 11:55:29 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 11:55:30 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-12 11:55:30 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-12 11:55:30 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-02-12 11:55:30 INFO  [main] c.b.selector.SelectorApplication - Started SelectorApplication in 8.417 seconds (process running for 9.193)
+2025-02-12 12:31:19 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-12 12:31:19 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-02-12 12:31:19 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 12:31:20 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-02-12 12:31:20 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-02-12 12:32:35 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-02-12 12:32:35 INFO  [main] c.b.selector.SelectorApplication - Starting SelectorApplication using Java 21.0.4 with PID 21960 (C:\selector\target\classes started by Lenovo in C:\selector)
+2025-02-12 12:32:35 DEBUG [main] c.b.selector.SelectorApplication - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-02-12 12:32:35 INFO  [main] c.b.selector.SelectorApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-12 12:32:40 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-12 12:32:40 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 144 ms. Found 2 JPA repository interfaces.
+2025-02-12 12:32:42 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-02-12 12:32:42 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-12 12:32:42 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-12 12:32:42 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-12 12:32:42 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-12 12:32:42 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7045 ms
+2025-02-12 12:32:43 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-12 12:32:43 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-12 12:32:43 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-02-12 12:32:46 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-12 12:32:46 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-02-12 12:32:47 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1b475663
+2025-02-12 12:32:47 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-02-12 12:32:47 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-12 12:32:47 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 15.8
@@ -144,746 +149,31 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-02-07 11:34:34 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-02-07 11:34:34 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-07 11:34:34 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-07 11:34:35 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2025-02-07 11:34:35 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
-2025-02-07 11:34:35 INFO  [main] c.b.selector.SelectorApplication - Started SelectorApplication in 5.825 seconds (process running for 6.455)
-2025-02-07 11:37:15 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m20s334ms863µs300ns).
-2025-02-07 12:22:18 INFO  [main] c.b.selector.SelectorApplication - Starting SelectorApplication using Java 21.0.5 with PID 2496 (C:\selector\target\classes started by Lenovo in C:\selector)
-2025-02-07 12:22:18 DEBUG [main] c.b.selector.SelectorApplication - Running with Spring Boot v3.4.2, Spring v6.2.2
-2025-02-07 12:22:18 INFO  [main] c.b.selector.SelectorApplication - No active profile set, falling back to 1 default profile: "default"
-2025-02-07 12:22:21 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-07 12:22:21 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 156 ms. Found 2 JPA repository interfaces.
-2025-02-07 12:22:22 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
-2025-02-07 12:22:22 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2025-02-07 12:22:22 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-02-07 12:22:22 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-07 12:22:23 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-02-07 12:22:23 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4147 ms
-2025-02-07 12:22:23 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-02-07 12:22:23 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
-2025-02-07 12:22:24 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-02-07 12:22:25 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-07 12:22:25 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2025-02-07 12:22:25 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@752973de
-2025-02-07 12:22:25 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2025-02-07 12:22:25 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-02-07 12:22:25 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 15.8
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-02-07 12:22:27 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-02-07 12:22:28 DEBUG [main] org.hibernate.SQL - 
-    create table public.interview_question (
-        id uuid DEFAULT uuid_generate_v4() not null,
-        category TEXT not null,
-        created_at timestamp(6) not null,
-        difficulty_level VARCHAR not null check (difficulty_level in ('EASY','MEDIUM','HARD')),
-        ideal_answer TEXT not null,
-        is_active boolean not null,
-        level smallint not null check (level between 0 and 4),
-        question TEXT not null,
-        question_bank_id uuid not null,
-        sub_category TEXT not null,
-        sub_topic TEXT not null,
-        subject TEXT not null,
-        topic TEXT not null,
-        updated_at timestamp(6) not null,
-        primary key (id)
-    )
-2025-02-07 12:22:28 WARN  [main] o.h.t.s.i.ExceptionHandlerLoggedImpl - GenerationTarget encountered exception accepting command : Error executing DDL "
-    create table public.interview_question (
-        id uuid DEFAULT uuid_generate_v4() not null,
-        category TEXT not null,
-        created_at timestamp(6) not null,
-        difficulty_level VARCHAR not null check (difficulty_level in ('EASY','MEDIUM','HARD')),
-        ideal_answer TEXT not null,
-        is_active boolean not null,
-        level smallint not null check (level between 0 and 4),
-        question TEXT not null,
-        question_bank_id uuid not null,
-        sub_category TEXT not null,
-        sub_topic TEXT not null,
-        subject TEXT not null,
-        topic TEXT not null,
-        updated_at timestamp(6) not null,
-        primary key (id)
-    )" via JDBC [ERROR: function uuid_generate_v4() does not exist
-  Hint: No function matches the given name and argument types. You might need to add explicit type casts.
-  Position: 73]
-org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
-    create table public.interview_question (
-        id uuid DEFAULT uuid_generate_v4() not null,
-        category TEXT not null,
-        created_at timestamp(6) not null,
-        difficulty_level VARCHAR not null check (difficulty_level in ('EASY','MEDIUM','HARD')),
-        ideal_answer TEXT not null,
-        is_active boolean not null,
-        level smallint not null check (level between 0 and 4),
-        question TEXT not null,
-        question_bank_id uuid not null,
-        sub_category TEXT not null,
-        sub_topic TEXT not null,
-        subject TEXT not null,
-        topic TEXT not null,
-        updated_at timestamp(6) not null,
-        primary key (id)
-    )" via JDBC [ERROR: function uuid_generate_v4() does not exist
-  Hint: No function matches the given name and argument types. You might need to add explicit type casts.
-  Position: 73]
-	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
-	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:576)
-	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:516)
-	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:316)
-	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:80)
-	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:233)
-	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112)
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280)
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
-	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
-	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
-	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
-	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324)
-	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463)
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
-	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419)
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400)
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1859)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
-	at com.bootcoding.selector.SelectorApplication.main(SelectorApplication.java:10)
-Caused by: org.postgresql.util.PSQLException: ERROR: function uuid_generate_v4() does not exist
-  Hint: No function matches the given name and argument types. You might need to add explicit type casts.
-  Position: 73
-	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2733)
-	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2420)
-	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372)
-	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:517)
-	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:434)
-	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:356)
-	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:341)
-	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:317)
-	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:312)
-	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
-	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
-	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
-	... 37 common frames omitted
-2025-02-07 12:22:28 DEBUG [main] org.hibernate.SQL - 
-    create table public.question_bank (
-        id uuid DEFAULT uuid_generate_v4() not null,
-        category TEXT not null,
-        created_at timestamp(6) not null,
-        difficulty_level VARCHAR not null check (difficulty_level in ('EASY','MEDIUM','HARD')),
-        ideal_answer TEXT not null,
-        is_active boolean not null,
-        level smallint not null check (level between 0 and 4),
-        question TEXT not null,
-        sub_category TEXT not null,
-        sub_topic TEXT not null,
-        subject TEXT not null,
-        topic TEXT not null,
-        updated_at timestamp(6) not null,
-        primary key (id)
-    )
-2025-02-07 12:22:28 WARN  [main] o.h.t.s.i.ExceptionHandlerLoggedImpl - GenerationTarget encountered exception accepting command : Error executing DDL "
-    create table public.question_bank (
-        id uuid DEFAULT uuid_generate_v4() not null,
-        category TEXT not null,
-        created_at timestamp(6) not null,
-        difficulty_level VARCHAR not null check (difficulty_level in ('EASY','MEDIUM','HARD')),
-        ideal_answer TEXT not null,
-        is_active boolean not null,
-        level smallint not null check (level between 0 and 4),
-        question TEXT not null,
-        sub_category TEXT not null,
-        sub_topic TEXT not null,
-        subject TEXT not null,
-        topic TEXT not null,
-        updated_at timestamp(6) not null,
-        primary key (id)
-    )" via JDBC [ERROR: function uuid_generate_v4() does not exist
-  Hint: No function matches the given name and argument types. You might need to add explicit type casts.
-  Position: 68]
-org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
-    create table public.question_bank (
-        id uuid DEFAULT uuid_generate_v4() not null,
-        category TEXT not null,
-        created_at timestamp(6) not null,
-        difficulty_level VARCHAR not null check (difficulty_level in ('EASY','MEDIUM','HARD')),
-        ideal_answer TEXT not null,
-        is_active boolean not null,
-        level smallint not null check (level between 0 and 4),
-        question TEXT not null,
-        sub_category TEXT not null,
-        sub_topic TEXT not null,
-        subject TEXT not null,
-        topic TEXT not null,
-        updated_at timestamp(6) not null,
-        primary key (id)
-    )" via JDBC [ERROR: function uuid_generate_v4() does not exist
-  Hint: No function matches the given name and argument types. You might need to add explicit type casts.
-  Position: 68]
-	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
-	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:576)
-	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:516)
-	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:316)
-	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:80)
-	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:233)
-	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112)
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280)
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
-	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
-	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
-	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
-	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324)
-	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463)
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
-	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419)
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400)
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1859)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
-	at com.bootcoding.selector.SelectorApplication.main(SelectorApplication.java:10)
-Caused by: org.postgresql.util.PSQLException: ERROR: function uuid_generate_v4() does not exist
-  Hint: No function matches the given name and argument types. You might need to add explicit type casts.
-  Position: 68
-	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2733)
-	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2420)
-	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372)
-	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:517)
-	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:434)
-	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:356)
-	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:341)
-	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:317)
-	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:312)
-	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
-	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
-	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
-	... 37 common frames omitted
-2025-02-07 12:22:28 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-07 12:22:28 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-07 12:22:30 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2025-02-07 12:22:30 WARN  [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
-2025-02-07 12:22:30 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-07 12:22:30 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2025-02-07 12:22:30 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2025-02-07 12:22:30 INFO  [main] o.s.b.a.l.ConditionEvaluationReportLogger - 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2025-02-07 12:22:30 ERROR [main] o.s.b.d.LoggingFailureAnalysisReporter - 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Web server failed to start. Port 8080 was already in use.
-
-Action:
-
-Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
-
-2025-02-07 12:25:38 INFO  [main] c.b.selector.SelectorApplication - Starting SelectorApplication using Java 21.0.5 with PID 15004 (C:\selector\target\classes started by Lenovo in C:\selector)
-2025-02-07 12:25:38 DEBUG [main] c.b.selector.SelectorApplication - Running with Spring Boot v3.4.2, Spring v6.2.2
-2025-02-07 12:25:38 INFO  [main] c.b.selector.SelectorApplication - No active profile set, falling back to 1 default profile: "default"
-2025-02-07 12:25:39 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-07 12:25:40 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 141 ms. Found 2 JPA repository interfaces.
-2025-02-07 12:25:41 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
-2025-02-07 12:25:41 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2025-02-07 12:25:41 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-02-07 12:25:41 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-07 12:25:41 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-02-07 12:25:41 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3452 ms
-2025-02-07 12:25:42 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-02-07 12:25:42 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
-2025-02-07 12:25:42 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-02-07 12:25:43 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-07 12:25:43 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2025-02-07 12:25:43 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@52a67293
-2025-02-07 12:25:43 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2025-02-07 12:25:43 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-02-07 12:25:43 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 15.8
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-02-07 12:25:45 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-02-07 12:25:45 DEBUG [main] org.hibernate.SQL - 
-    create table public.interview_question (
-        id uuid DEFAULT uuid_generate_v4() not null,
-        category TEXT not null,
-        created_at timestamp(6) not null,
-        difficulty_level VARCHAR not null check (difficulty_level in ('EASY','MEDIUM','HARD')),
-        ideal_answer TEXT not null,
-        is_active boolean not null,
-        level smallint not null check (level between 0 and 4),
-        question TEXT not null,
-        question_bank_id uuid not null,
-        sub_category TEXT not null,
-        sub_topic TEXT not null,
-        subject TEXT not null,
-        topic TEXT not null,
-        updated_at timestamp(6) not null,
-        primary key (id)
-    )
-2025-02-07 12:25:45 WARN  [main] o.h.t.s.i.ExceptionHandlerLoggedImpl - GenerationTarget encountered exception accepting command : Error executing DDL "
-    create table public.interview_question (
-        id uuid DEFAULT uuid_generate_v4() not null,
-        category TEXT not null,
-        created_at timestamp(6) not null,
-        difficulty_level VARCHAR not null check (difficulty_level in ('EASY','MEDIUM','HARD')),
-        ideal_answer TEXT not null,
-        is_active boolean not null,
-        level smallint not null check (level between 0 and 4),
-        question TEXT not null,
-        question_bank_id uuid not null,
-        sub_category TEXT not null,
-        sub_topic TEXT not null,
-        subject TEXT not null,
-        topic TEXT not null,
-        updated_at timestamp(6) not null,
-        primary key (id)
-    )" via JDBC [ERROR: function uuid_generate_v4() does not exist
-  Hint: No function matches the given name and argument types. You might need to add explicit type casts.
-  Position: 73]
-org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
-    create table public.interview_question (
-        id uuid DEFAULT uuid_generate_v4() not null,
-        category TEXT not null,
-        created_at timestamp(6) not null,
-        difficulty_level VARCHAR not null check (difficulty_level in ('EASY','MEDIUM','HARD')),
-        ideal_answer TEXT not null,
-        is_active boolean not null,
-        level smallint not null check (level between 0 and 4),
-        question TEXT not null,
-        question_bank_id uuid not null,
-        sub_category TEXT not null,
-        sub_topic TEXT not null,
-        subject TEXT not null,
-        topic TEXT not null,
-        updated_at timestamp(6) not null,
-        primary key (id)
-    )" via JDBC [ERROR: function uuid_generate_v4() does not exist
-  Hint: No function matches the given name and argument types. You might need to add explicit type casts.
-  Position: 73]
-	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
-	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:576)
-	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:516)
-	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:316)
-	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:80)
-	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:233)
-	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112)
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280)
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
-	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
-	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
-	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
-	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324)
-	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463)
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
-	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419)
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400)
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1859)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
-	at com.bootcoding.selector.SelectorApplication.main(SelectorApplication.java:10)
-Caused by: org.postgresql.util.PSQLException: ERROR: function uuid_generate_v4() does not exist
-  Hint: No function matches the given name and argument types. You might need to add explicit type casts.
-  Position: 73
-	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2733)
-	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2420)
-	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372)
-	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:517)
-	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:434)
-	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:356)
-	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:341)
-	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:317)
-	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:312)
-	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
-	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
-	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
-	... 37 common frames omitted
-2025-02-07 12:25:45 DEBUG [main] org.hibernate.SQL - 
-    create table public.question_bank (
-        id uuid DEFAULT uuid_generate_v4() not null,
-        category TEXT not null,
-        created_at timestamp(6) not null,
-        difficulty_level VARCHAR not null check (difficulty_level in ('EASY','MEDIUM','HARD')),
-        ideal_answer TEXT not null,
-        is_active boolean not null,
-        level smallint not null check (level between 0 and 4),
-        question TEXT not null,
-        sub_category TEXT not null,
-        sub_topic TEXT not null,
-        subject TEXT not null,
-        topic TEXT not null,
-        updated_at timestamp(6) not null,
-        primary key (id)
-    )
-2025-02-07 12:25:45 WARN  [main] o.h.t.s.i.ExceptionHandlerLoggedImpl - GenerationTarget encountered exception accepting command : Error executing DDL "
-    create table public.question_bank (
-        id uuid DEFAULT uuid_generate_v4() not null,
-        category TEXT not null,
-        created_at timestamp(6) not null,
-        difficulty_level VARCHAR not null check (difficulty_level in ('EASY','MEDIUM','HARD')),
-        ideal_answer TEXT not null,
-        is_active boolean not null,
-        level smallint not null check (level between 0 and 4),
-        question TEXT not null,
-        sub_category TEXT not null,
-        sub_topic TEXT not null,
-        subject TEXT not null,
-        topic TEXT not null,
-        updated_at timestamp(6) not null,
-        primary key (id)
-    )" via JDBC [ERROR: function uuid_generate_v4() does not exist
-  Hint: No function matches the given name and argument types. You might need to add explicit type casts.
-  Position: 68]
-org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
-    create table public.question_bank (
-        id uuid DEFAULT uuid_generate_v4() not null,
-        category TEXT not null,
-        created_at timestamp(6) not null,
-        difficulty_level VARCHAR not null check (difficulty_level in ('EASY','MEDIUM','HARD')),
-        ideal_answer TEXT not null,
-        is_active boolean not null,
-        level smallint not null check (level between 0 and 4),
-        question TEXT not null,
-        sub_category TEXT not null,
-        sub_topic TEXT not null,
-        subject TEXT not null,
-        topic TEXT not null,
-        updated_at timestamp(6) not null,
-        primary key (id)
-    )" via JDBC [ERROR: function uuid_generate_v4() does not exist
-  Hint: No function matches the given name and argument types. You might need to add explicit type casts.
-  Position: 68]
-	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
-	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:576)
-	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:516)
-	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:316)
-	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:80)
-	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:233)
-	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112)
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280)
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
-	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
-	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
-	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
-	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324)
-	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463)
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
-	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419)
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400)
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1859)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
-	at com.bootcoding.selector.SelectorApplication.main(SelectorApplication.java:10)
-Caused by: org.postgresql.util.PSQLException: ERROR: function uuid_generate_v4() does not exist
-  Hint: No function matches the given name and argument types. You might need to add explicit type casts.
-  Position: 68
-	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2733)
-	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2420)
-	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372)
-	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:517)
-	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:434)
-	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:356)
-	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:341)
-	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:317)
-	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:312)
-	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
-	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
-	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
-	... 37 common frames omitted
-2025-02-07 12:25:45 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-07 12:25:45 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-07 12:25:47 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2025-02-07 12:25:47 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
-2025-02-07 12:25:47 INFO  [main] c.b.selector.SelectorApplication - Started SelectorApplication in 10.652 seconds (process running for 11.952)
-2025-02-07 12:27:11 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-07 12:27:11 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
-2025-02-07 12:27:11 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-07 12:27:11 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2025-02-07 12:27:11 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2025-02-07 12:27:35 INFO  [main] c.b.selector.SelectorApplication - Starting SelectorApplication using Java 21.0.5 with PID 5240 (C:\selector\target\classes started by Lenovo in C:\selector)
-2025-02-07 12:27:35 DEBUG [main] c.b.selector.SelectorApplication - Running with Spring Boot v3.4.2, Spring v6.2.2
-2025-02-07 12:27:35 INFO  [main] c.b.selector.SelectorApplication - No active profile set, falling back to 1 default profile: "default"
-2025-02-07 12:27:37 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-07 12:27:37 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 135 ms. Found 2 JPA repository interfaces.
-2025-02-07 12:27:38 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
-2025-02-07 12:27:39 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2025-02-07 12:27:39 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-02-07 12:27:39 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-07 12:27:39 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-02-07 12:27:39 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3374 ms
-2025-02-07 12:27:39 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-02-07 12:27:39 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
-2025-02-07 12:27:39 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-02-07 12:27:40 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-07 12:27:40 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2025-02-07 12:27:40 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@52a67293
-2025-02-07 12:27:40 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2025-02-07 12:27:40 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-02-07 12:27:41 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 15.8
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-02-07 12:27:42 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-02-07 12:27:42 DEBUG [main] org.hibernate.SQL - 
-    create table public.interview_question (
-        id uuid DEFAULT uuid_generate_v4() not null,
-        category TEXT not null,
-        created_at timestamp(6) not null,
-        difficulty_level VARCHAR not null check (difficulty_level in ('EASY','MEDIUM','HARD')),
-        ideal_answer TEXT not null,
-        is_active boolean not null,
-        level smallint not null check (level between 0 and 4),
-        question TEXT not null,
-        question_bank_id uuid not null,
-        sub_category TEXT not null,
-        sub_topic TEXT not null,
-        subject TEXT not null,
-        topic TEXT not null,
-        updated_at timestamp(6) not null,
-        primary key (id)
-    )
-2025-02-07 12:27:42 DEBUG [main] org.hibernate.SQL - 
-    create table public.question_bank (
-        id uuid DEFAULT uuid_generate_v4() not null,
-        category TEXT not null,
-        created_at timestamp(6) not null,
-        difficulty_level VARCHAR not null check (difficulty_level in ('EASY','MEDIUM','HARD')),
-        ideal_answer TEXT not null,
-        is_active boolean not null,
-        level smallint not null check (level between 0 and 4),
-        question TEXT not null,
-        sub_category TEXT not null,
-        sub_topic TEXT not null,
-        subject TEXT not null,
-        topic TEXT not null,
-        updated_at timestamp(6) not null,
-        primary key (id)
-    )
-2025-02-07 12:27:42 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-07 12:27:42 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-07 12:27:44 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2025-02-07 12:27:44 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
-2025-02-07 12:27:44 INFO  [main] c.b.selector.SelectorApplication - Started SelectorApplication in 9.986 seconds (process running for 11.082)
-2025-02-07 13:06:12 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-07 13:06:12 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
-2025-02-07 13:06:12 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-07 13:06:12 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2025-02-07 13:06:12 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2025-02-07 13:08:45 INFO  [main] c.b.selector.SelectorApplication - Starting SelectorApplication using Java 21.0.5 with PID 7452 (C:\selector\target\classes started by Lenovo in C:\selector)
-2025-02-07 13:08:45 DEBUG [main] c.b.selector.SelectorApplication - Running with Spring Boot v3.4.2, Spring v6.2.2
-2025-02-07 13:08:45 INFO  [main] c.b.selector.SelectorApplication - No active profile set, falling back to 1 default profile: "default"
-2025-02-07 13:08:47 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-07 13:08:47 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 156 ms. Found 2 JPA repository interfaces.
-2025-02-07 13:08:49 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
-2025-02-07 13:08:49 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2025-02-07 13:08:49 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-02-07 13:08:49 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-07 13:08:49 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-02-07 13:08:49 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4096 ms
-2025-02-07 13:08:49 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-02-07 13:08:50 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
-2025-02-07 13:08:50 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-02-07 13:08:50 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-07 13:08:51 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2025-02-07 13:08:51 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6cceb281
-2025-02-07 13:08:51 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2025-02-07 13:08:51 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-02-07 13:08:51 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 15.8
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-02-07 13:08:53 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-02-07 13:08:53 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-07 13:08:53 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-07 13:08:55 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2025-02-07 13:08:55 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
-2025-02-07 13:08:55 INFO  [main] c.b.selector.SelectorApplication - Started SelectorApplication in 12.223 seconds (process running for 13.699)
-2025-02-07 13:09:06 INFO  [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-02-07 13:09:06 INFO  [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2025-02-07 13:09:06 INFO  [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
-2025-02-07 16:12:46 WARN  [http-nio-8080-exec-4] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: No content to map due to end-of-input]
-2025-02-07 16:12:53 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-07 16:12:53 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
-2025-02-07 16:12:53 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-07 16:12:53 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2025-02-07 16:12:53 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2025-02-07 22:21:26 INFO  [main] c.b.selector.SelectorApplication - Starting SelectorApplication using Java 21.0.5 with PID 15688 (C:\selector\target\classes started by Lenovo in C:\selector)
-2025-02-07 22:21:26 DEBUG [main] c.b.selector.SelectorApplication - Running with Spring Boot v3.4.2, Spring v6.2.2
-2025-02-07 22:21:26 INFO  [main] c.b.selector.SelectorApplication - No active profile set, falling back to 1 default profile: "default"
-2025-02-07 22:21:28 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-07 22:21:28 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 133 ms. Found 2 JPA repository interfaces.
-2025-02-07 22:21:30 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
-2025-02-07 22:21:30 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2025-02-07 22:21:30 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-02-07 22:21:30 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-07 22:21:31 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-02-07 22:21:31 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4633 ms
-2025-02-07 22:21:31 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-02-07 22:21:31 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
-2025-02-07 22:21:31 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-02-07 22:21:32 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-07 22:21:32 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2025-02-07 22:21:33 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1d944fc0
-2025-02-07 22:21:33 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2025-02-07 22:21:33 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-02-07 22:21:33 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 15.8
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-02-07 22:21:35 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-02-07 22:21:35 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-07 22:21:35 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-07 22:21:37 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2025-02-07 22:21:37 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
-2025-02-07 22:21:37 INFO  [main] c.b.selector.SelectorApplication - Started SelectorApplication in 12.398 seconds (process running for 16.142)
-2025-02-07 22:21:59 INFO  [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-02-07 22:21:59 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2025-02-07 22:21:59 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
-2025-02-07 22:24:42 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-07 22:25:12 INFO  [SpringApplicationShutdownHook] o.s.c.s.DefaultLifecycleProcessor - Shutdown phase 2147482623 ends with 1 bean still running after timeout of 30000ms: [webServerGracefulShutdown]
-2025-02-07 22:25:12 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown aborted with one or more requests still active
-2025-02-07 22:25:17 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-07 22:25:17 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2025-02-07 22:25:17 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2025-02-07 22:28:48 INFO  [main] c.b.selector.SelectorApplication - Starting SelectorApplication using Java 21.0.5 with PID 16764 (C:\selector\target\classes started by Lenovo in C:\selector)
-2025-02-07 22:28:48 DEBUG [main] c.b.selector.SelectorApplication - Running with Spring Boot v3.4.2, Spring v6.2.2
-2025-02-07 22:28:48 INFO  [main] c.b.selector.SelectorApplication - No active profile set, falling back to 1 default profile: "default"
-2025-02-07 22:28:50 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-07 22:28:50 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 139 ms. Found 2 JPA repository interfaces.
-2025-02-07 22:28:51 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
-2025-02-07 22:28:51 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2025-02-07 22:28:51 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-02-07 22:28:51 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-07 22:28:52 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-02-07 22:28:52 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3469 ms
-2025-02-07 22:28:52 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-02-07 22:28:52 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
-2025-02-07 22:28:52 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-02-07 22:28:53 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-07 22:28:53 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2025-02-07 22:28:53 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@29090809
-2025-02-07 22:28:53 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2025-02-07 22:28:54 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-02-07 22:28:54 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 15.8
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-02-07 22:28:55 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-02-07 22:28:55 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-07 22:28:56 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-07 22:28:57 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2025-02-07 22:28:57 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
-2025-02-07 22:28:57 INFO  [main] c.b.selector.SelectorApplication - Started SelectorApplication in 10.419 seconds (process running for 11.687)
-2025-02-07 22:29:56 INFO  [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-02-07 22:29:56 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2025-02-07 22:29:56 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
-2025-02-07 22:29:56 ERROR [http-nio-8080-exec-1] o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.util.MissingFormatArgumentException: Format specifier '%s'] with root cause
-java.util.MissingFormatArgumentException: Format specifier '%s'
-	at java.base/java.util.Formatter.format(Formatter.java:2790)
-	at java.base/java.util.Formatter.format(Formatter.java:2728)
-	at java.base/java.lang.String.format(String.java:4390)
-	at com.bootcoding.selector.service.GeminiService.createPrompt(GeminiService.java:79)
-	at com.bootcoding.selector.service.GeminiService.processTopics(GeminiService.java:48)
-	at com.bootcoding.selector.controller.GeminiController.generateContent(GeminiController.java:21)
+2025-02-12 12:32:52 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-12 12:32:53 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 12:32:59 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-12 12:33:02 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-12 12:33:02 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-02-12 12:33:02 INFO  [main] c.b.selector.SelectorApplication - Started SelectorApplication in 30.136 seconds (process running for 32.333)
+2025-02-12 12:33:14 INFO  [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-12 12:33:14 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-12 12:33:14 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2025-02-12 12:33:27 ERROR [http-nio-8080-exec-1] c.b.selector.service.GeminiService - Error processing JSON response: Cannot deserialize value of type `java.util.ArrayList<com.bootcoding.selector.dto.QuestionBankRequest>` from Object value (token `JsonToken.START_OBJECT`)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 2, column: 3]
+2025-02-12 12:33:28 ERROR [http-nio-8080-exec-1] o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.io.IOException: Failed to process JSON response
+	at com.bootcoding.selector.service.GeminiService.processAndSaveTopics(GeminiService.java:165)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727)
+	at com.bootcoding.selector.service.GeminiService$$SpringCGLIB$$0.processAndSaveTopics(<generated>)
+	at com.bootcoding.selector.controller.GeminiController.generateAndSaveContent(GeminiController.java:22)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
@@ -932,31 +222,42 @@ java.util.MissingFormatArgumentException: Format specifier '%s'
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-2025-02-07 22:31:28 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-07 22:31:28 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
-2025-02-07 22:31:28 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-07 22:31:28 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2025-02-07 22:31:28 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2025-02-07 22:31:45 INFO  [main] c.b.selector.SelectorApplication - Starting SelectorApplication using Java 21.0.5 with PID 14616 (C:\selector\target\classes started by Lenovo in C:\selector)
-2025-02-07 22:31:45 DEBUG [main] c.b.selector.SelectorApplication - Running with Spring Boot v3.4.2, Spring v6.2.2
-2025-02-07 22:31:45 INFO  [main] c.b.selector.SelectorApplication - No active profile set, falling back to 1 default profile: "default"
-2025-02-07 22:31:48 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-07 22:31:48 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 152 ms. Found 2 JPA repository interfaces.
-2025-02-07 22:31:50 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
-2025-02-07 22:31:50 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2025-02-07 22:31:50 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-02-07 22:31:50 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-07 22:31:50 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-02-07 22:31:50 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4422 ms
-2025-02-07 22:31:50 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-02-07 22:31:51 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
-2025-02-07 22:31:51 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-02-07 22:31:51 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-07 22:31:51 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2025-02-07 22:31:52 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1d944fc0
-2025-02-07 22:31:52 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2025-02-07 22:31:52 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-02-07 22:31:52 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+Caused by: com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `java.util.ArrayList<com.bootcoding.selector.dto.QuestionBankRequest>` from Object value (token `JsonToken.START_OBJECT`)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 2, column: 3]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1767)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1541)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1488)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.handleNonArray(CollectionDeserializer.java:402)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:254)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:30)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:342)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4917)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3860)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3843)
+	at com.bootcoding.selector.service.GeminiService.processAndSaveTopics(GeminiService.java:144)
+	... 59 common frames omitted
+2025-02-12 13:01:22 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-02-12 13:01:22 INFO  [main] c.b.selector.SelectorApplication - Starting SelectorApplication using Java 21.0.4 with PID 19608 (C:\selector\target\classes started by Lenovo in C:\selector)
+2025-02-12 13:01:22 DEBUG [main] c.b.selector.SelectorApplication - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-02-12 13:01:22 INFO  [main] c.b.selector.SelectorApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-12 13:01:24 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-12 13:01:24 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 107 ms. Found 2 JPA repository interfaces.
+2025-02-12 13:01:25 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-02-12 13:01:25 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-12 13:01:25 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-12 13:01:25 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-12 13:01:25 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-12 13:01:25 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2742 ms
+2025-02-12 13:01:26 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-12 13:01:26 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-12 13:01:26 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-02-12 13:01:26 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-12 13:01:27 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-02-12 13:01:27 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6b24ddd7
+2025-02-12 13:01:27 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-02-12 13:01:27 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-12 13:01:27 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 15.8
@@ -964,40 +265,36 @@ java.util.MissingFormatArgumentException: Format specifier '%s'
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-02-07 22:31:54 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-02-07 22:31:54 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-07 22:31:54 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-07 22:31:55 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2025-02-07 22:31:55 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
-2025-02-07 22:31:55 INFO  [main] c.b.selector.SelectorApplication - Started SelectorApplication in 11.815 seconds (process running for 12.95)
-2025-02-07 22:32:04 INFO  [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-02-07 22:32:04 INFO  [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2025-02-07 22:32:04 INFO  [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
-2025-02-07 22:49:22 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-07 22:49:23 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
-2025-02-07 22:49:23 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-07 22:49:23 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2025-02-07 22:49:23 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2025-02-07 22:49:35 INFO  [main] c.b.selector.SelectorApplication - Starting SelectorApplication using Java 21.0.5 with PID 11320 (C:\selector\target\classes started by Lenovo in C:\selector)
-2025-02-07 22:49:35 DEBUG [main] c.b.selector.SelectorApplication - Running with Spring Boot v3.4.2, Spring v6.2.2
-2025-02-07 22:49:35 INFO  [main] c.b.selector.SelectorApplication - No active profile set, falling back to 1 default profile: "default"
-2025-02-07 22:49:37 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-07 22:49:37 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 154 ms. Found 2 JPA repository interfaces.
-2025-02-07 22:49:39 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
-2025-02-07 22:49:39 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2025-02-07 22:49:39 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-02-07 22:49:39 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-07 22:49:39 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-02-07 22:49:39 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4226 ms
-2025-02-07 22:49:40 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-02-07 22:49:40 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
-2025-02-07 22:49:40 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-02-07 22:49:41 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-07 22:49:41 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2025-02-07 22:49:41 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@15ac02d5
-2025-02-07 22:49:41 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2025-02-07 22:49:41 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-02-07 22:49:41 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+2025-02-12 13:01:30 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-12 13:01:30 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 13:01:31 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-12 13:01:31 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-12 13:01:32 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-02-12 13:01:32 INFO  [main] c.b.selector.SelectorApplication - Started SelectorApplication in 10.449 seconds (process running for 11.31)
+2025-02-12 13:01:44 INFO  [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-12 13:01:44 INFO  [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-12 13:01:44 INFO  [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2025-02-12 13:01:53 DEBUG [http-nio-8080-exec-2] c.b.selector.service.GeminiService - Processing JSON response: [{"Subject":"Java","question":"Explain the difference between primitive and reference data types in Java.  Provide examples of each and discuss their memory management.","idealAnswer":"Primitive data types are built-in data types that directly store values.  They are stored on the stack. Examples include `int`, `float`, `boolean`, `char`, `byte`, `short`, `long`, `double`. Reference data types, on the other hand, store memory addresses of objects. Objects are stored on the heap. Examples include `String`, `Integer`, `ArrayList`, custom classes.  Memory management for primitives is automatic and handled by the JVM's stack, while reference types require garbage collection to reclaim memory when the objects are no longer referenced.","category":"Data Types","subCategory":"Primitive vs. Reference","topic":"Data Types","subTopic":"Primitive and Reference Data Types","DifficultyLevel":"Medium","Level":"3"},{"Subject":"Java","question":"Describe the concept of autoboxing and unboxing in Java.  Give examples and explain the situations where it is useful and potentially problematic.","idealAnswer":"Autoboxing is the automatic conversion of a primitive type to its corresponding wrapper class (e.g., `int` to `Integer`). Unboxing is the reverse process.  This is useful for seamlessly integrating primitive types with collections that only accept objects.  For example, adding an `int` to an `ArrayList<Integer>`.  However, it can lead to performance overhead, especially with frequent conversions, and `NullPointerExceptions` can occur if an unboxing operation is performed on a `null` wrapper object.","category":"Data Types","subCategory":"Wrapper Classes","topic":"Data Types","subTopic":"Autoboxing and Unboxing","DifficultyLevel":"Medium","Level":"3"},{"Subject":"Java","question":"What are wrapper classes in Java? Why are they needed?  Explain how to use them to parse strings into primitive types.","idealAnswer":"Wrapper classes are classes that provide an object representation of primitive data types (e.g., `Integer` for `int`, `Double` for `double`). They are needed because collections only work with objects and not primitive types.  To parse a String to a primitive type, first parse it into the corresponding wrapper type using methods like `Integer.parseInt()`, `Double.parseDouble()`, etc. then unbox the wrapper to a primitive if needed.","category":"Data Types","subCategory":"Wrapper Classes","topic":"Data Types","subTopic":"Wrapper Classes and String Parsing","DifficultyLevel":"Medium","Level":"3"},{"Subject":"Java","question":"Explain the difference between `String` and `StringBuffer` (or `StringBuilder`). When would you use each one?","idealAnswer":"Both `String` and `StringBuffer`/`StringBuilder` represent sequences of characters, but `String` objects are immutable.  This means that once a `String` object is created, its value cannot be changed. Operations that appear to modify a `String` actually create a new `String` object.  `StringBuffer` and `StringBuilder` are mutable, allowing efficient modifications without creating new objects. `StringBuffer` is synchronized (thread-safe), making it suitable for multithreaded environments, while `StringBuilder` is not synchronized, and is faster in single-threaded applications.","category":"Data Types","subCategory":"String Manipulation","topic":"Data Types","subTopic":"Strings and StringBuilders","DifficultyLevel":"Medium","Level":"4"},{"Subject":"Java","question":"Discuss the considerations for choosing appropriate data types in Java. What factors should be considered when selecting a data type for a specific variable?","idealAnswer":"Choosing the right data type involves considering several factors: the range of values the variable needs to store, memory usage, performance requirements, and potential for errors (e.g., overflow).  For example, using an `int` when a `long` might be required can lead to data loss, while using a `long` unnecessarily can consume extra memory. Understanding the trade-offs between these factors is crucial for writing efficient and reliable code.","category":"Data Types","subCategory":"Data Type Selection","topic":"Data Types","subTopic":"Choosing Appropriate Data Types","DifficultyLevel":"Hard","Level":"5"}]
+2025-02-12 13:01:53 WARN  [http-nio-8080-exec-2] c.b.selector.service.GeminiService - Skipping invalid request: com.bootcoding.selector.dto.QuestionBankRequest@57933a75
+2025-02-12 13:01:53 WARN  [http-nio-8080-exec-2] c.b.selector.service.GeminiService - Skipping invalid request: com.bootcoding.selector.dto.QuestionBankRequest@5fe653c8
+2025-02-12 13:01:53 WARN  [http-nio-8080-exec-2] c.b.selector.service.GeminiService - Skipping invalid request: com.bootcoding.selector.dto.QuestionBankRequest@2873d327
+2025-02-12 13:01:53 WARN  [http-nio-8080-exec-2] c.b.selector.service.GeminiService - Skipping invalid request: com.bootcoding.selector.dto.QuestionBankRequest@1f950ddd
+2025-02-12 13:01:53 WARN  [http-nio-8080-exec-2] c.b.selector.service.GeminiService - Skipping invalid request: com.bootcoding.selector.dto.QuestionBankRequest@511bdcc8
+2025-02-12 13:20:48 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-02-12 13:20:49 INFO  [main] c.b.s.SelectorApplicationTests - Starting SelectorApplicationTests using Java 21.0.4 with PID 9780 (started by Lenovo in C:\selector)
+2025-02-12 13:20:49 DEBUG [main] c.b.s.SelectorApplicationTests - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-02-12 13:20:49 INFO  [main] c.b.s.SelectorApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-02-12 13:20:50 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-12 13:20:51 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 121 ms. Found 2 JPA repository interfaces.
+2025-02-12 13:20:52 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-12 13:20:52 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-12 13:20:52 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-02-12 13:20:53 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-12 13:20:53 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-02-12 13:20:54 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1edf71d9
+2025-02-12 13:20:54 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-02-12 13:20:54 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-12 13:20:54 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 15.8
@@ -1005,40 +302,34 @@ java.util.MissingFormatArgumentException: Format specifier '%s'
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-02-07 22:49:44 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-02-07 22:49:44 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-07 22:49:45 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-07 22:49:46 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2025-02-07 22:49:46 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
-2025-02-07 22:49:46 INFO  [main] c.b.selector.SelectorApplication - Started SelectorApplication in 12.952 seconds (process running for 14.103)
-2025-02-07 22:50:09 INFO  [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-02-07 22:50:09 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2025-02-07 22:50:09 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
-2025-02-07 22:56:43 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-07 22:56:43 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
-2025-02-07 22:56:43 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-07 22:56:43 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2025-02-07 22:56:43 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2025-02-07 22:58:24 INFO  [main] c.b.selector.SelectorApplication - Starting SelectorApplication using Java 21.0.5 with PID 8452 (C:\selector\target\classes started by Lenovo in C:\selector)
-2025-02-07 22:58:24 DEBUG [main] c.b.selector.SelectorApplication - Running with Spring Boot v3.4.2, Spring v6.2.2
-2025-02-07 22:58:24 INFO  [main] c.b.selector.SelectorApplication - No active profile set, falling back to 1 default profile: "default"
-2025-02-07 22:58:26 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-07 22:58:26 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 211 ms. Found 2 JPA repository interfaces.
-2025-02-07 22:58:28 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
-2025-02-07 22:58:28 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2025-02-07 22:58:28 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-02-07 22:58:28 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-07 22:58:28 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-02-07 22:58:28 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4106 ms
-2025-02-07 22:58:29 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-02-07 22:58:29 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
-2025-02-07 22:58:29 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-02-07 22:58:30 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-07 22:58:30 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2025-02-07 22:58:30 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@15ac02d5
-2025-02-07 22:58:30 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2025-02-07 22:58:30 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-02-07 22:58:30 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+2025-02-12 13:20:56 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-12 13:20:56 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 13:20:57 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-12 13:20:58 INFO  [main] c.b.s.SelectorApplicationTests - Started SelectorApplicationTests in 10.559 seconds (process running for 13.076)
+2025-02-12 13:20:59 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 13:20:59 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-02-12 13:20:59 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-02-12 13:23:51 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-02-12 13:23:51 INFO  [main] c.b.selector.SelectorApplication - Starting SelectorApplication using Java 21.0.4 with PID 22024 (C:\selector\target\classes started by Lenovo in C:\selector)
+2025-02-12 13:23:51 DEBUG [main] c.b.selector.SelectorApplication - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-02-12 13:23:51 INFO  [main] c.b.selector.SelectorApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-12 13:23:52 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-12 13:23:52 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 112 ms. Found 2 JPA repository interfaces.
+2025-02-12 13:23:53 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-02-12 13:23:53 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-12 13:23:53 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-12 13:23:53 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-12 13:23:53 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-12 13:23:53 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2212 ms
+2025-02-12 13:23:53 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-12 13:23:54 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-12 13:23:54 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-02-12 13:23:54 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-12 13:23:54 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-02-12 13:23:54 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@45571cfc
+2025-02-12 13:23:54 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-02-12 13:23:54 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-12 13:23:54 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 15.8
@@ -1046,12 +337,124 @@ java.util.MissingFormatArgumentException: Format specifier '%s'
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-02-07 22:58:32 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-02-07 22:58:33 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-07 22:58:33 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-07 22:58:34 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2025-02-07 22:58:34 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
-2025-02-07 22:58:34 INFO  [main] c.b.selector.SelectorApplication - Started SelectorApplication in 12.644 seconds (process running for 13.752)
-2025-02-07 23:00:04 INFO  [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-02-07 23:00:04 INFO  [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2025-02-07 23:00:04 INFO  [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2025-02-12 13:23:56 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-12 13:23:56 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 13:23:57 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-12 13:23:57 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-12 13:23:57 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-02-12 13:23:57 INFO  [main] c.b.selector.SelectorApplication - Started SelectorApplication in 7.354 seconds (process running for 8.014)
+2025-02-12 13:25:55 INFO  [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-12 13:25:55 INFO  [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-12 13:25:55 INFO  [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-02-12 13:26:06 DEBUG [http-nio-8080-exec-2] c.b.selector.service.GeminiService - Processing JSON response: [{"Subject":"Java","question":"Explain the difference between primitive and reference data types in Java, providing examples of each.  Discuss the implications of this difference in terms of memory management and variable assignment.","idealAnswer":"Primitive data types are built-in types that represent single values (e.g., `int`, `float`, `boolean`, `char`). They are stored directly on the stack. Reference data types, on the other hand, refer to objects stored in the heap.  They store memory addresses rather than the data itself. \n\n**Key Differences:**\n* **Memory Location:** Primitives are stored on the stack; references are stored on the stack, but the objects they refer to are in the heap.\n* **Size:** Primitives have fixed sizes; objects have variable sizes determined at runtime.\n* **Assignment:**  Assigning a primitive copies the value; assigning a reference copies the reference, so both variables point to the same object in memory.  Changes made through one reference are visible through the other.\n* **Null Values:** References can be null; primitives cannot be null (except for `int`, `float`, etc. which can be assigned null if they are wrapped objects i.e. `Integer`, `Float` etc.).\n\n**Examples:**\n* **Primitive:** `int age = 30;`\n* **Reference:** `String name = \"Alice\";` (String is an object in Java)\n\n**Implications:**\n* **Memory Management:** Primitives are simpler to manage; the garbage collector handles heap memory occupied by objects referred to by references.  Care is needed to prevent memory leaks if objects are no longer used but still referenced.\n* **Variable Assignment:** Copying primitives creates independent copies.  Copying references creates two variables referring to the same object, potentially leading to unexpected behavior if one variable modifies the object's state.","category":"Data Structures and Algorithms","subCategory":"Data Types","topic":"Data Types","subTopic":"Primitive vs. Reference Types","DifficultyLevel":"Medium","Level":"3"},{"Subject":"Java","question":"Describe the concept of autoboxing and unboxing in Java.  Provide examples and explain when it's useful.","idealAnswer":"Autoboxing is the automatic conversion that the Java compiler makes between the primitive types and their corresponding wrapper classes. Unboxing is the reverse process. \n\n**Autoboxing:**  Converting a primitive type to its wrapper class object (e.g., `int` to `Integer`).\n\n**Unboxing:**  Converting a wrapper class object to its primitive type (e.g., `Integer` to `int`).\n\n**Examples:**\n* **Autoboxing:** `Integer num = 10;` (The `int` literal `10` is automatically boxed into an `Integer` object.)\n* **Unboxing:** `int value = num;` (The `Integer` object `num` is automatically unboxed into an `int`.)\n\n**Usefulness:** Autoboxing and unboxing simplify code by allowing you to seamlessly use primitives and their corresponding wrapper classes in contexts where objects are expected (e.g., collections like `ArrayList`). It makes code cleaner and reduces boilerplate.  It's transparent to the programmer most of the time, improving developer productivity.","category":"Data Structures and Algorithms","subCategory":"Data Types","topic":"Data Types","subTopic":"Autoboxing and Unboxing","DifficultyLevel":"Medium","Level":"3"},{"Subject":"Java","question":"What are wrapper classes in Java? Explain their purpose and give examples of how they're used with collections.","idealAnswer":"Wrapper classes in Java provide a way to use primitive data types (like `int`, `float`, `boolean`, etc.) as objects. Each primitive type has a corresponding wrapper class (e.g., `Integer`, `Float`, `Boolean`).\n\n**Purpose:**\n* **Object Representation:**  They allow primitives to be used where objects are required, such as in collections (`ArrayList`, `HashMap`, etc.).\n* **Null Values:** They can hold `null` values unlike primitive data types which cannot be set to null, offering more flexibility.\n* **Utility Methods:** Wrapper classes offer useful methods for converting between different data types and performing other operations (e.g., `Integer.parseInt()`).\n\n**Examples with Collections:**\njava\nArrayList<Integer> numbers = new ArrayList<>();\nnumbers.add(10); // Autoboxing: int 10 is automatically converted to Integer\nnumbers.add(25);\n\nint firstNumber = numbers.get(0); // Unboxing: Integer is automatically converted to int\n\nHere, the `ArrayList` can only hold objects. Using wrapper classes allows to store primitive values within the collections.","category":"Data Structures and Algorithms","subCategory":"Data Types","topic":"Data Types","subTopic":"Wrapper Classes","DifficultyLevel":"Medium","Level":"3"},{"Subject":"Java","question":"Explain the concept of immutability in Java, focusing on String objects.  What are the implications of String immutability for performance and memory management?","idealAnswer":"Immutability means that once an object is created, its state cannot be modified. In Java, `String` objects are immutable.  When you perform an operation that seems to modify a `String` (like concatenation), you're actually creating a *new* `String` object with the modified value, leaving the original `String` unchanged.\n\n**Implications:**\n* **Performance:** While convenient for thread safety, creating new `String` objects for every modification can lead to performance overhead, especially with frequent string manipulations. Using `StringBuilder` or `StringBuffer` is recommended for more efficient string manipulation in such cases.\n* **Memory Management:**  The garbage collector has to manage many discarded `String` objects, potentially leading to increased memory usage if not handled carefully. String pooling (reusing the same string instances when possible) is an optimization implemented in Java to reduce memory consumption.\n\n**Example:**\njava\nString s1 = \"hello\";\nString s2 = s1 + \" world\"; // s1 remains \"hello\"; s2 is a new String object \"hello world\"\n","category":"Data Structures and Algorithms","subCategory":"Data Types","topic":"Data Types","subTopic":"Immutability","DifficultyLevel":"Medium","Level":"4"}]
+2025-02-12 13:26:06 WARN  [http-nio-8080-exec-2] c.b.selector.service.GeminiService - Skipping invalid request: QuestionBank(id=null, subject=null, question=Explain the difference between primitive and reference data types in Java, providing examples of each.  Discuss the implications of this difference in terms of memory management and variable assignment., idealAnswer=Primitive data types are built-in types that represent single values (e.g., `int`, `float`, `boolean`, `char`). They are stored directly on the stack. Reference data types, on the other hand, refer to objects stored in the heap.  They store memory addresses rather than the data itself. 
+
+**Key Differences:**
+* **Memory Location:** Primitives are stored on the stack; references are stored on the stack, but the objects they refer to are in the heap.
+* **Size:** Primitives have fixed sizes; objects have variable sizes determined at runtime.
+* **Assignment:**  Assigning a primitive copies the value; assigning a reference copies the reference, so both variables point to the same object in memory.  Changes made through one reference are visible through the other.
+* **Null Values:** References can be null; primitives cannot be null (except for `int`, `float`, etc. which can be assigned null if they are wrapped objects i.e. `Integer`, `Float` etc.).
+
+**Examples:**
+* **Primitive:** `int age = 30;`
+* **Reference:** `String name = "Alice";` (String is an object in Java)
+
+**Implications:**
+* **Memory Management:** Primitives are simpler to manage; the garbage collector handles heap memory occupied by objects referred to by references.  Care is needed to prevent memory leaks if objects are no longer used but still referenced.
+* **Variable Assignment:** Copying primitives creates independent copies.  Copying references creates two variables referring to the same object, potentially leading to unexpected behavior if one variable modifies the object's state., category=Data Structures and Algorithms, subCategory=Data Types, topic=Data Types, subTopic=Primitive vs. Reference Types, difficultyLevel=null, level=null, isActive=true, createdAt=null, updatedAt=null)
+2025-02-12 13:26:06 WARN  [http-nio-8080-exec-2] c.b.selector.service.GeminiService - Skipping invalid request: QuestionBank(id=null, subject=null, question=Describe the concept of autoboxing and unboxing in Java.  Provide examples and explain when it's useful., idealAnswer=Autoboxing is the automatic conversion that the Java compiler makes between the primitive types and their corresponding wrapper classes. Unboxing is the reverse process. 
+
+**Autoboxing:**  Converting a primitive type to its wrapper class object (e.g., `int` to `Integer`).
+
+**Unboxing:**  Converting a wrapper class object to its primitive type (e.g., `Integer` to `int`).
+
+**Examples:**
+* **Autoboxing:** `Integer num = 10;` (The `int` literal `10` is automatically boxed into an `Integer` object.)
+* **Unboxing:** `int value = num;` (The `Integer` object `num` is automatically unboxed into an `int`.)
+
+**Usefulness:** Autoboxing and unboxing simplify code by allowing you to seamlessly use primitives and their corresponding wrapper classes in contexts where objects are expected (e.g., collections like `ArrayList`). It makes code cleaner and reduces boilerplate.  It's transparent to the programmer most of the time, improving developer productivity., category=Data Structures and Algorithms, subCategory=Data Types, topic=Data Types, subTopic=Autoboxing and Unboxing, difficultyLevel=null, level=null, isActive=true, createdAt=null, updatedAt=null)
+2025-02-12 13:26:06 WARN  [http-nio-8080-exec-2] c.b.selector.service.GeminiService - Skipping invalid request: QuestionBank(id=null, subject=null, question=What are wrapper classes in Java? Explain their purpose and give examples of how they're used with collections., idealAnswer=Wrapper classes in Java provide a way to use primitive data types (like `int`, `float`, `boolean`, etc.) as objects. Each primitive type has a corresponding wrapper class (e.g., `Integer`, `Float`, `Boolean`).
+
+**Purpose:**
+* **Object Representation:**  They allow primitives to be used where objects are required, such as in collections (`ArrayList`, `HashMap`, etc.).
+* **Null Values:** They can hold `null` values unlike primitive data types which cannot be set to null, offering more flexibility.
+* **Utility Methods:** Wrapper classes offer useful methods for converting between different data types and performing other operations (e.g., `Integer.parseInt()`).
+
+**Examples with Collections:**
+java
+ArrayList<Integer> numbers = new ArrayList<>();
+numbers.add(10); // Autoboxing: int 10 is automatically converted to Integer
+numbers.add(25);
+
+int firstNumber = numbers.get(0); // Unboxing: Integer is automatically converted to int
+
+Here, the `ArrayList` can only hold objects. Using wrapper classes allows to store primitive values within the collections., category=Data Structures and Algorithms, subCategory=Data Types, topic=Data Types, subTopic=Wrapper Classes, difficultyLevel=null, level=null, isActive=true, createdAt=null, updatedAt=null)
+2025-02-12 13:26:06 WARN  [http-nio-8080-exec-2] c.b.selector.service.GeminiService - Skipping invalid request: QuestionBank(id=null, subject=null, question=Explain the concept of immutability in Java, focusing on String objects.  What are the implications of String immutability for performance and memory management?, idealAnswer=Immutability means that once an object is created, its state cannot be modified. In Java, `String` objects are immutable.  When you perform an operation that seems to modify a `String` (like concatenation), you're actually creating a *new* `String` object with the modified value, leaving the original `String` unchanged.
+
+**Implications:**
+* **Performance:** While convenient for thread safety, creating new `String` objects for every modification can lead to performance overhead, especially with frequent string manipulations. Using `StringBuilder` or `StringBuffer` is recommended for more efficient string manipulation in such cases.
+* **Memory Management:**  The garbage collector has to manage many discarded `String` objects, potentially leading to increased memory usage if not handled carefully. String pooling (reusing the same string instances when possible) is an optimization implemented in Java to reduce memory consumption.
+
+**Example:**
+java
+String s1 = "hello";
+String s2 = s1 + " world"; // s1 remains "hello"; s2 is a new String object "hello world"
+, category=Data Structures and Algorithms, subCategory=Data Types, topic=Data Types, subTopic=Immutability, difficultyLevel=null, level=null, isActive=true, createdAt=null, updatedAt=null)
+2025-02-12 13:38:17 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-12 13:38:17 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-02-12 13:38:17 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 13:38:17 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-02-12 13:38:17 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-02-12 13:38:48 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-02-12 13:38:49 INFO  [main] c.b.selector.SelectorApplication - Starting SelectorApplication using Java 21.0.4 with PID 19444 (C:\selector\target\classes started by Lenovo in C:\selector)
+2025-02-12 13:38:49 DEBUG [main] c.b.selector.SelectorApplication - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-02-12 13:38:49 INFO  [main] c.b.selector.SelectorApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-12 13:38:50 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-12 13:38:50 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 90 ms. Found 2 JPA repository interfaces.
+2025-02-12 13:38:51 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-02-12 13:38:51 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-12 13:38:51 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-12 13:38:51 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-12 13:38:51 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-12 13:38:51 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2208 ms
+2025-02-12 13:38:51 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-12 13:38:51 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-12 13:38:51 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-02-12 13:38:52 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-12 13:38:52 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-02-12 13:38:52 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7c3c453b
+2025-02-12 13:38:52 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-02-12 13:38:52 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-12 13:38:52 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.8
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-12 13:38:54 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-12 13:38:54 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 13:38:54 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-12 13:38:55 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-12 13:38:55 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-02-12 13:38:55 INFO  [main] c.b.selector.SelectorApplication - Started SelectorApplication in 7.434 seconds (process running for 8.178)
+2025-02-12 13:41:32 INFO  [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-12 13:41:32 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-12 13:41:32 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2025-02-12 13:41:41 DEBUG [http-nio-8080-exec-1] c.b.selector.service.GeminiService - Processing JSON response: [{"Subject":"Java","question":"Explain the difference between primitive and reference data types in Java, providing examples of each.  Describe how they are stored in memory.","idealAnswer":"Primitive data types are built-in data types that directly store their values in memory. Examples include `int`, `float`, `boolean`, `char`, etc.  Reference data types, on the other hand, store memory addresses that point to objects in the heap. Examples include `String`, `Integer`, `ArrayList`, custom classes, etc. Primitive types are stored directly on the stack, while reference types store a reference (address) on the stack, and the object itself is stored in the heap.  The size of primitive types is fixed, whereas the size of reference types is variable and depends on the object's content.","category":"Data Types","subCategory":"Primitive vs. Reference","topic":"Data Types","subTopic":"Primitive and Reference Data Types","DifficultyLevel":"Medium","Level":3},{"Subject":"Java","question":"Describe the concept of autoboxing and unboxing in Java with examples. What are the potential performance implications?","idealAnswer":"Autoboxing is the automatic conversion of primitive types to their corresponding wrapper classes (e.g., `int` to `Integer`). Unboxing is the reverse process.  For example, `Integer i = 10;` (autoboxing) and `int j = i;` (unboxing).  While convenient, autoboxing and unboxing can introduce performance overhead, especially in loops or frequently executed code sections, because it involves creating and garbage collecting wrapper objects.  It's generally best practice to avoid excessive autoboxing/unboxing in performance-critical sections of code. Using primitives directly is generally more efficient.","category":"Data Types","subCategory":"Wrapper Classes","topic":"Data Types","subTopic":"Autoboxing and Unboxing","DifficultyLevel":"Medium","Level":3},{"Subject":"Java","question":"Explain the different sizes and ranges of the integral primitive data types in Java (`byte`, `short`, `int`, `long`). When would you choose one over another?","idealAnswer":"The sizes and ranges are as follows:\n* `byte`: 1 byte (-128 to 127)\n* `short`: 2 bytes (-32,768 to 32,767)\n* `int`: 4 bytes (-2,147,483,648 to 2,147,483,647)\n* `long`: 8 bytes (-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807)\nThe choice depends on the range of values you need to store. `byte` is used when memory usage is critical and values are small. `int` is the most commonly used for general-purpose integer storage. `long` is used when you need a larger range than `int` can provide. `short` is less frequently used compared to others.","category":"Data Types","subCategory":"Primitive Types","topic":"Data Types","subTopic":"Integral Types","DifficultyLevel":"Easy","Level":2},{"Subject":"Java","question":"Discuss the `String` data type in Java. Is it a primitive type? How is immutability relevant to its use?","idealAnswer":"The `String` data type in Java is not a primitive type; it's a reference type representing a sequence of characters.  It's crucial to understand that Strings in Java are immutable.  This means that once a `String` object is created, its value cannot be changed.  Any operation that appears to modify a `String` actually creates a new `String` object. While this might seem inefficient, it provides several advantages such as thread safety and efficient string pooling (the JVM reuses identical string literals).","category":"Data Types","subCategory":"Reference Types","topic":"Data Types","subTopic":"String Immutability","DifficultyLevel":"Medium","Level":3},{"Subject":"Java","question":"Explain the concept of type casting in Java.  Give examples of implicit and explicit casting, and discuss potential pitfalls.","idealAnswer":"Type casting is the conversion of a value from one data type to another.  Implicit casting (also known as automatic type conversion) happens automatically when the compiler can safely convert a value to a wider type (e.g., `int` to `long`). Explicit casting (also known as type conversion) requires explicit conversion using casting operators (e.g., `(int) myLong`).  Potential pitfalls include loss of precision (e.g., casting a `double` to an `int`) and `ClassCastException` (when casting between incompatible object types).  Always be mindful of the potential for data loss when performing type casting.","category":"Data Types","subCategory":"Type Conversion","topic":"Data Types","subTopic":"Type Casting","DifficultyLevel":"Medium","Level":3}]
+2025-02-12 13:41:41 WARN  [http-nio-8080-exec-1] c.b.selector.service.GeminiService - Skipping invalid request: QuestionBank(id=null, subject=null, question=Explain the difference between primitive and reference data types in Java, providing examples of each.  Describe how they are stored in memory., idealAnswer=Primitive data types are built-in data types that directly store their values in memory. Examples include `int`, `float`, `boolean`, `char`, etc.  Reference data types, on the other hand, store memory addresses that point to objects in the heap. Examples include `String`, `Integer`, `ArrayList`, custom classes, etc. Primitive types are stored directly on the stack, while reference types store a reference (address) on the stack, and the object itself is stored in the heap.  The size of primitive types is fixed, whereas the size of reference types is variable and depends on the object's content., category=Data Types, subCategory=Primitive vs. Reference, topic=Data Types, subTopic=Primitive and Reference Data Types, difficultyLevel=null, level=null, isActive=true, createdAt=null, updatedAt=null)
+2025-02-12 13:41:41 WARN  [http-nio-8080-exec-1] c.b.selector.service.GeminiService - Skipping invalid request: QuestionBank(id=null, subject=null, question=Describe the concept of autoboxing and unboxing in Java with examples. What are the potential performance implications?, idealAnswer=Autoboxing is the automatic conversion of primitive types to their corresponding wrapper classes (e.g., `int` to `Integer`). Unboxing is the reverse process.  For example, `Integer i = 10;` (autoboxing) and `int j = i;` (unboxing).  While convenient, autoboxing and unboxing can introduce performance overhead, especially in loops or frequently executed code sections, because it involves creating and garbage collecting wrapper objects.  It's generally best practice to avoid excessive autoboxing/unboxing in performance-critical sections of code. Using primitives directly is generally more efficient., category=Data Types, subCategory=Wrapper Classes, topic=Data Types, subTopic=Autoboxing and Unboxing, difficultyLevel=null, level=null, isActive=true, createdAt=null, updatedAt=null)
+2025-02-12 13:41:41 WARN  [http-nio-8080-exec-1] c.b.selector.service.GeminiService - Skipping invalid request: QuestionBank(id=null, subject=null, question=Explain the different sizes and ranges of the integral primitive data types in Java (`byte`, `short`, `int`, `long`). When would you choose one over another?, idealAnswer=The sizes and ranges are as follows:
+* `byte`: 1 byte (-128 to 127)
+* `short`: 2 bytes (-32,768 to 32,767)
+* `int`: 4 bytes (-2,147,483,648 to 2,147,483,647)
+* `long`: 8 bytes (-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807)
+The choice depends on the range of values you need to store. `byte` is used when memory usage is critical and values are small. `int` is the most commonly used for general-purpose integer storage. `long` is used when you need a larger range than `int` can provide. `short` is less frequently used compared to others., category=Data Types, subCategory=Primitive Types, topic=Data Types, subTopic=Integral Types, difficultyLevel=null, level=null, isActive=true, createdAt=null, updatedAt=null)
+2025-02-12 13:41:41 WARN  [http-nio-8080-exec-1] c.b.selector.service.GeminiService - Skipping invalid request: QuestionBank(id=null, subject=null, question=Discuss the `String` data type in Java. Is it a primitive type? How is immutability relevant to its use?, idealAnswer=The `String` data type in Java is not a primitive type; it's a reference type representing a sequence of characters.  It's crucial to understand that Strings in Java are immutable.  This means that once a `String` object is created, its value cannot be changed.  Any operation that appears to modify a `String` actually creates a new `String` object. While this might seem inefficient, it provides several advantages such as thread safety and efficient string pooling (the JVM reuses identical string literals)., category=Data Types, subCategory=Reference Types, topic=Data Types, subTopic=String Immutability, difficultyLevel=null, level=null, isActive=true, createdAt=null, updatedAt=null)
+2025-02-12 13:41:41 WARN  [http-nio-8080-exec-1] c.b.selector.service.GeminiService - Skipping invalid request: QuestionBank(id=null, subject=null, question=Explain the concept of type casting in Java.  Give examples of implicit and explicit casting, and discuss potential pitfalls., idealAnswer=Type casting is the conversion of a value from one data type to another.  Implicit casting (also known as automatic type conversion) happens automatically when the compiler can safely convert a value to a wider type (e.g., `int` to `long`). Explicit casting (also known as type conversion) requires explicit conversion using casting operators (e.g., `(int) myLong`).  Potential pitfalls include loss of precision (e.g., casting a `double` to an `int`) and `ClassCastException` (when casting between incompatible object types).  Always be mindful of the potential for data loss when performing type casting., category=Data Types, subCategory=Type Conversion, topic=Data Types, subTopic=Type Casting, difficultyLevel=null, level=null, isActive=true, createdAt=null, updatedAt=null)
+2025-02-12 13:43:27 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-12 13:43:27 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-02-12 13:43:27 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 13:43:27 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-02-12 13:43:27 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

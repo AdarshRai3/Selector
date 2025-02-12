@@ -1,6 +1,8 @@
 package com.bootcoding.selector.entity;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -22,31 +24,40 @@ public class QuestionBank {
     @JdbcTypeCode(SqlTypes.UUID)
     private UUID id;
 
+    @NotBlank(message = "Subject cannot be empty")
     @Column(name = "subject", nullable = false, columnDefinition = "TEXT")
     private String subject;
 
+    @NotBlank(message = "Question cannot be empty")
     @Column(name = "question", nullable = false, columnDefinition = "TEXT")
     private String question;
 
+    @NotBlank(message = "Ideal answer cannot be empty")
     @Column(name = "ideal_answer", nullable = false, columnDefinition = "TEXT")
     private String idealAnswer;
 
+    @NotBlank(message = "Category cannot be empty")
     @Column(name = "category", nullable = false, columnDefinition = "TEXT")
     private String category;
 
+    @NotBlank(message = "Sub-category cannot be empty")
     @Column(name = "sub_category", nullable = false, columnDefinition = "TEXT")
     private String subCategory;
 
+    @NotBlank(message = "Topic cannot be empty")
     @Column(name = "topic", nullable = false, columnDefinition = "TEXT")
     private String topic;
 
+    @NotBlank(message = "Sub-topic cannot be empty")
     @Column(name = "sub_topic", nullable = false, columnDefinition = "TEXT")
     private String subTopic;
 
+    @NotNull(message = "Difficulty level cannot be null")
     @Enumerated(EnumType.STRING)
     @Column(name = "difficulty_level", nullable = false, columnDefinition = "VARCHAR")
     private DifficultyLevel difficultyLevel;
 
+    @NotNull(message = "Level cannot be null")
     @Enumerated(EnumType.ORDINAL)
     @Column(name = "level", nullable = false)
     private Level level;
